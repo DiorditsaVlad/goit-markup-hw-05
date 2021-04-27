@@ -33,11 +33,19 @@ body {
   font-size: 14px;
   color: var(--pr-title-color);
 }
-.flex-header {
-  display: flex;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
 }
 .header {
   border-bottom: 1px solid #ececec;
+}
+.flex-header {
+  display: flex;
 }
 .header-main {
   display: flex;
@@ -58,7 +66,6 @@ body {
   flex-wrap: wrap;
   align-items: center;
 }
-
 .aut-nav {
   display: flex;
   align-items: center;
@@ -70,28 +77,18 @@ body {
   padding-top: 31px;
   padding-bottom: 31px;
 }
-.smartphone {
-  /* padding: 0; */
-  margin-right: 10px;
-}
 .aut-nav:hover,
 .aut-nav:focus {
   fill: var(--accent-color);
 }
+.smartphone {
+  margin-right: 10px;
+}
 .envelope {
   margin-right: 10px;
 }
-
 .aut-list .item:not(:last-child) {
   margin-right: 50px;
-}
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.link {
-  text-decoration: none;
-  color: inherit;
 }
 .link:hover,
 .link:focus {
@@ -135,11 +132,9 @@ body {
   bottom: 0;
   left: 0;
 }
-
 .studio {
   color: var(--accent-color);
 }
-
 /* main */
 .section-pr {
   background-color: var(--secondary-bg-cl);
@@ -184,17 +179,17 @@ body {
 }
 .btn {
   border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0;
 }
 .pr-btn {
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  cursor: pointer;
   background-color: var(--accent-color);
   color: var(--pr-wht-color);
-  border: 0;
   padding: 10px 32px;
 }
 .visually-hidden {
@@ -237,7 +232,6 @@ body {
   height: 120px;
   margin-bottom: 30px;
 }
-
 .icon-clock::before {
   content: '';
   background: var(--icon-bg-cl);
@@ -271,7 +265,6 @@ body {
   height: 120px;
   margin-bottom: 30px;
 }
-
 .item-flex {
   flex-basis: calc((100% - 30px * 4) / 4);
 }
@@ -496,19 +489,13 @@ body {
 .link-footer-icon:focus {
   background-color: var(--accent-color);
 }
-
 /* !ПОРТФОЛИO */
 .btn-work {
   display: flex;
   align-items: center;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.63;
-  cursor: pointer;
-  height: 38px;
-
-  background: #f5f4fa;
-  border: 0;
+  background-color: #f5f4fa;
   padding: 6px 22px;
 }
 .all {
