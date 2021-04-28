@@ -520,9 +520,11 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: opacity 250ms var(--cubik), visibility 250ms var(--cubik);
+  transition: opacity 250ms var(--cubik), visibility 250ms var(--cubik),
+    box-shadow 250ms var(--cubik);
   min-width: 520px;
-  min-height: 580px;
+  max-height: 580px;
+  height: 100vh;
 
   background-color: var(--pr-wht-color);
   overflow-y: auto;
