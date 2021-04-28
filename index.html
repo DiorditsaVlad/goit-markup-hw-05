@@ -67,7 +67,9 @@
       <section class="section-pr">
         <div class="container section-wt">
           <h1 class="pr-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="pr-btn btn">Заказать услугу</button>
+          <button data-modal-open type="button" class="pr-btn btn">
+            Заказать услугу
+          </button>
         </div>
       </section>
       <section class="section">
@@ -384,5 +386,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button data-modal-close>close</button>
+      </div>
+    </div>
+    <script src="./modal.js"></script>
   </body>
 </html>
