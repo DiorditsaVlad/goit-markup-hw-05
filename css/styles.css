@@ -523,7 +523,6 @@ body {
   text-decoration: none;
   color: inherit;
   display: block;
-  overflow: hidden;
 }
 .example-work {
   font-weight: 700;
@@ -564,6 +563,7 @@ body {
 }
 .active-image {
   position: relative;
+  overflow: hidden;
 }
 .active-text {
   position: absolute;
@@ -572,7 +572,6 @@ body {
   left: 0;
   bottom: 0;
   transform: translatey(100%);
-
   padding: 63px 24px;
 
   font-size: 18px;
