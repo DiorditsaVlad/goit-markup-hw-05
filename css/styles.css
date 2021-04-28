@@ -511,6 +511,7 @@ body {
   transition: opacity 250ms var(--cubik);
 }
 .backdrop.is-hidden {
+  visibility: hidden;
   opacity: 0;
   pointer-events: none;
 }
@@ -519,20 +520,14 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  transition: opacity 250ms var(--cubik), visibility 250ms var(--cubik);
   min-width: 520px;
   min-height: 580px;
 
   background-color: var(--pr-wht-color);
+  overflow-y: auto;
 }
-/* .close {
-  display: block;
-  color: #000000;
-  padding: 6px;
-  border-radius: 50%;
-  background-color: transparent;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-} */
+
 .close {
   position: absolute;
   right: 8px;
