@@ -509,7 +509,6 @@ body {
   justify-content: center;
   margin-bottom: 50px;
 }
-
 .list-works .item:not(:last-child) {
   margin-right: 8px;
 }
@@ -543,12 +542,12 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
 .flex-element {
   flex-basis: calc((100% - 30px * 9) / 9);
   margin-right: 30px;
   margin-bottom: 30px;
   max-height: 404px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .flex-element:nth-child(3n) {
   margin: 0;
@@ -565,7 +564,7 @@ body {
   height: 100%;
   left: 0;
   bottom: 0;
-  transform: translatey(-100%);
+  transform: translatey(100%);
 
   padding: 63px 24px;
 
@@ -580,7 +579,7 @@ body {
   background-color: rgba(33, 150, 243, 0.9);
   color: var(--pr-wht-color);
   opacity: 1;
-  transform: translatey(0);
+  transform: translatex(0);
 }
 .card-image {
   border-bottom: 1px solid #eeeeee;
