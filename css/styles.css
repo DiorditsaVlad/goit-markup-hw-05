@@ -500,6 +500,57 @@ body {
 .link-footer-icon:focus {
   background-color: var(--accent-color);
 }
+.input-footer{
+  margin-left: 95px;
+}
+.text-input{
+  display: block;
+  padding-top: 12px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--pr-wht-color);
+  margin-bottom: 20px ;
+}
+.btn-footer{
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: var(--accent-color);
+  color: var(--pr-wht-color);
+  min-height: 50px;
+  max-width: 200px;
+  margin-left: 12px;
+
+  font-weight: 700; 
+  font-size: 16px;
+   line-height: 1.87;
+   letter-spacing: 0.06em;
+}
+
+.input-email{
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background: var(--secondary-bg-cl);
+  width: 358px;
+  height: 50px;
+}
+.form-email{
+  display: inline-block;
+}
+.input-email::placeholder{
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 15px;
+}
+.icon-input{
+  fill: var(--pr-wht-color);
+  margin-left: 10px;
+
+}
 .backdrop {
   position: fixed;
   top: 0;
